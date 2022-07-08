@@ -9,6 +9,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 /*HEADER*/
 #header {
@@ -199,7 +200,7 @@ a {
     flex-wrap: wrap;
   }
   #showcase {
-    width: 100%;
+    width: 60%;
     margin: auto;
     display: block;
   }
