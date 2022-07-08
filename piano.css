@@ -93,8 +93,8 @@ body {
 }
 iframe {
   display: block;
-  width: 34vw;
-  height: 20vw;
+  width: 560px;
+  height: 340px;
   margin: auto;
   padding-bottom: 20px;
 }
@@ -202,7 +202,9 @@ a {
   * {
     overflow: visible;
 	}
-  #showcase {
+  iframe {
     overflow: visible;
+    width: 336px;
+    height: 204px;
   }
 }
