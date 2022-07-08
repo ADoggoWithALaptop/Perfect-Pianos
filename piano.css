@@ -9,7 +9,6 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow: hidden;
 }
 /*HEADER*/
 #header {
@@ -97,6 +96,7 @@ iframe {
   height: 315px;
   margin: auto;
   padding-bottom: 20px;
+  overflow: hidden;
 }
 p {
   padding: 10px;
@@ -203,5 +203,6 @@ a {
     width: 60%;
     margin: auto;
     display: block;
+    overflow: hidden;
   }
 }
