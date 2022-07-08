@@ -199,8 +199,8 @@ a {
     flex-wrap: wrap;
   }
   iframe {
-	width: 90%;
-	height: 50%;
+	width: 200px;
+	height: 120px;
 	padding-left: 0;
 	margin-left: 0;
 	padding-right: 0;
