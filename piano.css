@@ -202,4 +202,7 @@ a {
   * {
     overflow: visible;
 	}
+  #showcase {
+    overflow: visible;
+  }
 }
