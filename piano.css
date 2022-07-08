@@ -199,4 +199,7 @@ a {
   #price {
     flex-wrap: wrap;
   }
+  * {
+    overflow: visible;
+	}
 }
