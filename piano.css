@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  background-color: rgb(240, 240,240)
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*HEADER*/
+#header {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+  padding-top: 10px;
+  background-color: rgb(240, 240,240);
+  z-index: 999;
+}
+#header-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 3em;
+  min-width: 3em;
+  max-width: 3em;
+  min-height: 3em;
+  max-height: 3em;
+  margin-right: 15px;
+}
+.logo {
+  width: 60vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.pain {
+  display: flex;
+  flex-direction: row;
+}
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#nav-bar li {
+  width: 14vw;
+  margin: 10px;
+  font-size: 1.3rem;
+  list-style: none;
+  min-width: 100px;
+  font-weight: 400;
+  text-align: center;
+}
+#nav-bar li:first-of-type {
+  width: 0vw;
+  min-width: 50px
+}
+#nav-bar li:last-of-type {
+  width: 0vw;
+  min-width: 60px
+}
+#nav-bar a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+/*MAIN*/
+.container {
+  width: 100%;
+  padding: 10px;
+  padding-top: 90px;
+  padding-bottom: 0;
+  margin: auto;
+  text-align: center;
+}
+.container h1 {
+  font-size: 1.5em;
+}
+#perks img {
+  width: 3em;
+  margin-right: 20px;
+}
+#perks img:last-of-type {
+  width: 2.5em;
+}
+iframe {
+  display: block;
+  width: 560px;
+  height: 315px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+p {
+  padding: 10px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+input {
+  font-size: 1em;
+  margin: 5px;
+  padding: 2px;
+  border-radius: 5px;
+  border: solid 2px rgb(90,90,90);
+}
+input:last-of-type {
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.inline {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: left;
+}
+.inline h1 {
+  position: relative;
+  top: 7px;
+}
+#price {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.pianos {
+  width: 27vw;
+  min-width: 200px;
+  margin: 3vw;
+  border: solid 1px black;
+  border-radius: 2px;
+}
+h1.pianosh1 {
+  font-size: 1.2em;
+  background-color: rgb(220,220,220);
+  line-height: 3em;
+}
+.pianoprice {
+  padding: 10px;
+}
+.pianos p {
+  margin: 0 auto;
+  padding: 5px;
+}
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 10px auto;
+}
+#reference {
+  background-color: rgb(200,200,200);
+  width: 94%;
+  height: 70px;
+  margin: auto;
+  margin-top: 20px;
+}
+#reference p {
+  width: 100%;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+@media (max-width: 799px) {
+  header {
+    flex-wrap: wrap;
+  }
+  .logo {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  }
+  .logo .pain {
+    margin: auto;
+  }
+  .container {
+    padding-top: 145px;
+  }
+  p {
+    width: 90%;
+  }
+  #price {
+    flex-wrap: wrap;
+  }
+}
