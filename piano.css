@@ -165,7 +165,7 @@ h1.pianosh1 {
 #reference {
   background-color: rgb(200,200,200);
   width: 94%;
-  height: 70px;
+  height: 100px;
   margin: auto;
   margin-top: 20px;
 }
@@ -190,11 +190,16 @@ a {
   }
   .container {
     padding-top: 145px;
+	margin: auto;
   }
   p {
     width: 90%;
   }
   #price {
     flex-wrap: wrap;
+  }
+  iframe {
+	width: 460px;
+	height: 260;
   }
 }
