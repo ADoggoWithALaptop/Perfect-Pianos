@@ -93,8 +93,8 @@ body {
 }
 iframe {
   display: block;
-  width: 60%;
-  height: auto;
+  width: 34em;
+  height: 20em;
   margin: auto;
   padding-bottom: 20px;
 }
