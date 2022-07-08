@@ -198,4 +198,8 @@ a {
   #price {
     flex-wrap: wrap;
   }
+  iframe {
+    width: 300;
+    height: 169;
+	}
 }
